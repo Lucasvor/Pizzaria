@@ -683,7 +683,7 @@ public class Form extends javax.swing.JFrame {
                 total_cobertura -= 2.50;
             }
         }
-        jl_total.setText("Total: R$ "+String.format("%.02f",total+total_sabor+total_cobertura).replace(".", ","));
+        jl_total.setText("Total: R$ "+String.format("%.02f",total+total_sabor+total_cobertura).replace(".", "," ));
     }//GEN-LAST:event_jRadioButton10ActionPerformed
 
 
